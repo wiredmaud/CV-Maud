@@ -311,12 +311,14 @@ h5{
    box-shadow: 5px 5px 15px 5px #000000;
 
 }
-.skills{
+.skills-container .skills{
+  display: contents;
   align-items: center;
   height: 50vh;
   margin-bottom:10px;
   padding: 0;
   margin-top: 15px;
+  color: #000000;
 }
 
 
