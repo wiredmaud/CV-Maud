@@ -1,0 +1,39 @@
+footer{
+    height: auto;
+    width: 100vw;
+    position:relative;
+    font-family: 'Lato', sans-serif;
+    padding: 0;
+    bottom:0 ;   
+    /* border: solid #004d7a 5px; */
+    background-color:#090621
+}
+
+.Footer{
+    display: flex;
+    justify-content: center;
+}
+.contact-container{
+    color:#A8EB12;
+    display: inline;
+    margin: 16px;
+}
+
+.links{
+    background-color: #A8EB12;
+    color: aliceblue;
+}
+
+img{
+    margin-top: 10px;
+}
+
+body{
+    margin:0;
+    padding: 0;
+}
+/* .footer-title{
+    color:#A8EB12;
+} */
+
+  

@@ -1,0 +1,96 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="/navbar/navbar.css">
+    <link rel="stylesheet" href="/footer/footer.css">
+    <title>Contact</title>
+</head>
+<body>
+    <nav class="navigation_bar">
+    
+        <div class="nav">
+            <input type="checkbox" id="nav-check">
+            <div class="nav-header">
+              <div class="nav-title">
+                MaudAletti
+              </div>
+            </div>
+            <div class="nav-btn">
+              <label for="nav-check">
+                <span></span>
+                <span></span>
+                <span></span>
+              </label>
+            </div>
+            
+            <div class="nav-links">
+              <a href="index.html" target="_blank">A PROPOS</a>
+              <a href="experience.html" target="_blank">EXPERIENCE</a>
+              <a href="contact.html" target="_blank">CONTACT</a>
+            </div>
+          </div>
+    </nav>
+
+
+    <h1>Contactez moi!</h1>
+    <div class="contact">
+    <form method="post" id="image-form" action="mailto:mamaud2003@yahoo.fr" method="get" enctype="text/plain">
+      <div class="three_col">
+        <select>
+          <option value="mr">MR</option>
+          <option value="mrs">MME</option>
+        </select>
+        <input type="text" name="fname" placeholder="Prénom" class="default" msg="Error for First name">
+        <span class="error"></span>
+        <input type="text" name="lname" placeholder="Nom" class="default" msg="Error for Last name">
+        <span class="error"></span>
+        <input type="text" name="company" placeholder="Société" class="default" msg="Error for Company name">
+        <span class="error"></span>
+      </div>
+      <div class="one_col email">
+        <input type="text" name="email" placeholder="Email Address" class="default" msg="Votre email">
+        <span class="error"></span>
+      </div>
+      <div class="one_col">
+        <input type="text" name="website" placeholder="votre site web" class="default" msg="Error for website">
+        <span class="error"></span>
+      </div>
+      <div class="one_col">
+        <textarea rows="4" cols="20" placeholder="Message"></textarea>
+        <span class="error"></span>
+      </div>
+      <div class="one_col">
+        <input id="submit" type="submit" value="Envoyer" />
+      </div>
+      <span class="clear"></span>
+    </form>
+  </div>
+  <footer>
+    <div class="Footer">
+        <div class="contact-container">
+         <h4>Contact</h4>
+         <p>email : aletti.maud@gmail.com</p>
+             <p>Lieu de recherche Savoie</p>
+             
+        </div>
+         <div class="links">
+             <a href="https://github.com/wiredmaud?tab=repositories" target="_blank" rel="noopener noreferrer">
+                 <img src="/assets/github_original_wordmark_logo_icon_146506.png" alt="githubMaud">
+                 <br>
+                 <a href="https://www.linkedin.com/in/maud-aletti-1622572/" target="_blank"
+                 rel="noopener noreferrer">
+                 <img class="fa-brands fa-linkedin"  src="/assets/linkedin-logo (3).png" href="https://www.linkedin.com/in/maud-aletti-1622572/" target="_blank" ></img>
+                 </a>
+         </div>                              
+     </div>   
+ </footer>
+
+  <script src="contact.js"></script>
+
+</body>
+
+
+</html>

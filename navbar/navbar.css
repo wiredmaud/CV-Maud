@@ -1,0 +1,163 @@
+/* nav{
+    background-color: #090621;
+} */
+
+/* 
+.navigation_bar{
+    position:static;
+    height: 15%;
+    display: flex;
+    justify-content: flex-end;
+    align-content: flex-start;
+    
+}
+
+
+.logo{
+border-radius: 8px;
+border: 1px solid #ddd;
+padding: 5px;
+width: auto;
+height: 146px;
+}
+
+.navigation_menu {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 720px;     
+}
+   
+       
+a {
+    color: #25E957;
+    text-decoration: none;
+
+}
+
+li :hover{
+    background-color: white;
+    border-radius: 0.2rem;
+
+}
+
+li{
+    letter-spacing: 7px;
+    margin-right:200px;
+    color:#051937;
+    font-weight: 500;
+    font-size: 18px;
+
+}
+
+@media screen and (max-width: 768px){
+
+  
+} */
+
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0px;
+    font-family: 'segoe ui';
+  }
+  
+  .nav {
+    height: 50px;
+    width: 100%;
+    background-color: #090621;
+    position: relative;
+  }
+  
+  .nav > .nav-header {
+    display: inline;
+  }
+  
+  .nav > .nav-header > .nav-title {
+    display: inline-block;
+    font-size: 22px;
+    color: #25E957;
+    padding: 10px 10px 10px 10px;
+  }
+  
+  .nav > .nav-btn {
+    display: none;
+  }
+  
+  .nav > .nav-links {
+    display: inline;
+    float: right;
+    font-size: 18px;
+  }
+  
+  .nav > .nav-links > a {
+    display: inline-block;
+    padding: 13px 100px 13px 30px;
+    text-decoration: none;
+    color: #25E957;
+  }
+  
+  .nav > .nav-links > a:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+  
+  .nav > #nav-check {
+    display: none;
+  }
+  
+  @media (max-width:768px) {
+    .nav > .nav-btn {
+      display: inline-block;
+      position: absolute;
+      right: 0px;
+      top: 0px;
+    }
+    .nav > .nav-btn > label {
+      display: inline-block;
+      width: 50px;
+      height: 50px;
+      padding: 13px;
+    }
+    .nav > .nav-btn > label:hover,.nav  #nav-check:checked ~ .nav-btn > label {
+      background-color: rgba(0, 0, 0, 0.3);
+    }
+    .nav > .nav-btn > label > span {
+      display: block;
+      width: 25px;
+      height: 10px;
+      border-top: 2px solid #eee;
+    }
+    .nav > .nav-links {
+      position: absolute;
+      display: block;
+      width: 100%;
+      background-color: #090621;
+      height: 0px;
+      transition: all 0.3s ease-in;
+      overflow-y: hidden;
+      top: 50px;
+      left: 0px;
+    }
+    .nav > .nav-links > a {
+      display: block;
+      width: 100%;
+    }
+    .nav > #nav-check:not(:checked) ~ .nav-links {
+      height: 0px;
+    }
+    .nav > #nav-check:checked ~ .nav-links {
+      height: calc(220px - 50px);
+      overflow-y: auto;
+    }
+  }
+
+
+  @media (max-width:375px){
+    .nav > .nav-btn {
+        right: 0px;
+      }
+
+  }
